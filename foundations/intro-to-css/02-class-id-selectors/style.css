@@ -1,0 +1,19 @@
+p {
+  background-color: salmon;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.two {
+ color: blue;
+ font-size: 36pt;
+}
+
+.three {
+  font-size: 24pt;
+}
+
+.four {
+  background-color: lightgreen;
+  font-size: 24pt;
+  font-weight: bold;
+}
