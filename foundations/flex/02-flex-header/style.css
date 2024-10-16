@@ -1,3 +1,51 @@
+/* .header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+}
+
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  margin: 10px;
+  padding: 0 10px;
+  align-items: center;
+  display: flex;
+}
+
+.left-links, .right-links {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+ul {
+  padding: 20px 10px;
+  display: flex;
+  list-style-type: none;
+  flex: 1 1 auto;
+  gap: 2%;
+  align-items: center;
+}
+
+.left-links ul {
+  justify-content: left;
+}
+
+.right-links ul {
+  justify-content: right;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  this removes the line under the links
+  text-decoration: none;
+} */
+
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -22,4 +70,20 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* SOLUTION */
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
